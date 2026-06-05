@@ -1,0 +1,8 @@
+# Utilisateurs NovaCorp à contrôler
+alice
+bob
+charlie
+diana
+svc_backup
+invalid user
+root

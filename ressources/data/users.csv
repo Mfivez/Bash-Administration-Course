@@ -1,0 +1,6 @@
+login,prenom,nom,groupe,role
+alice,Alice,Durand,support,Technicienne support
+bob,Bob,Martin,support,Technicien support
+charlie,Charlie,Bernard,ops,Administrateur junior
+diana,Diana,Petit,dev,Développeuse
+svc_backup,Service,Backup,svc,Compte de service sauvegarde

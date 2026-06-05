@@ -1,0 +1,14 @@
+name: Checks Bash
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  bash-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run script checks
+        run: bash tests/test_scripts.sh

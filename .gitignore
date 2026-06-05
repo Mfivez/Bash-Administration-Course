@@ -1,0 +1,23 @@
+# Environnements générés
+/novacorp/
+/tmp/
+
+# Sorties de formation générées
+/reports/generated/
+/backups/
+*.tar.gz
+*.tgz
+*.zip
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python éventuel
+__pycache__/
+.pytest_cache/
+.venv/

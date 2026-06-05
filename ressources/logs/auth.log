@@ -1,0 +1,7 @@
+2026-06-01 08:01:12 INFO sshd ip=10.0.0.12 Accepted password for alice
+2026-06-01 08:04:44 WARNING sshd ip=10.0.0.99 Failed password for invalid user admin
+2026-06-01 08:05:01 WARNING sshd ip=10.0.0.99 Failed password for invalid user admin
+2026-06-01 09:11:29 INFO sudo user=alice command=/usr/bin/systemctl status ssh
+2026-06-01 10:15:33 ERROR sudo user=bob command=/usr/sbin/useradd permission denied
+2026-06-01 11:20:00 INFO cron job=backup_novacorp status=started
+2026-06-01 11:20:08 INFO cron job=backup_novacorp status=success

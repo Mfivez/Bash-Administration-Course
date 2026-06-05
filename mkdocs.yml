@@ -1,0 +1,40 @@
+site_name: Formation Bash & Administration Linux
+site_description: Formation Bash de zéro vers l'administration Linux avec fil rouge NovaCorp
+nav:
+  - Accueil: README.md
+  - Guides:
+      - Guide formateur: docs/00-guide-formateur.md
+      - Guide apprenant: docs/00-guide-apprenant.md
+      - Environnement de lab: docs/00-environnement-lab.md
+      - Fil rouge NovaCorp: docs/00-fil-rouge-novacorp.md
+      - Glossaire: docs/glossaire.md
+      - Cheatsheet commandes: docs/commandes-cheatsheet.md
+      - Conventions Bash: docs/conventions-bash.md
+      - Évaluation: docs/evaluation.md
+  - Cours:
+      - Jour 1: cours/jour-01-linux-terminal.md
+      - Jour 2: cours/jour-02-fichiers-flux-permissions.md
+      - Jour 3: cours/jour-03-premiers-scripts.md
+      - Jour 4: cours/jour-04-boucles-fonctions.md
+      - Jour 5: cours/jour-05-texte-logs.md
+      - Jour 6: cours/jour-06-administration-systeme.md
+      - Jour 7: cours/jour-07-automatisation-sauvegarde-supervision.md
+      - Jour 8: cours/jour-08-projet-final.md
+  - Ateliers:
+      - Jour 1: ateliers/jour-01-ateliers.md
+      - Jour 2: ateliers/jour-02-ateliers.md
+      - Jour 3: ateliers/jour-03-ateliers.md
+      - Jour 4: ateliers/jour-04-ateliers.md
+      - Jour 5: ateliers/jour-05-ateliers.md
+      - Jour 6: ateliers/jour-06-ateliers.md
+      - Jour 7: ateliers/jour-07-ateliers.md
+      - Jour 8: ateliers/jour-08-ateliers.md
+  - Projet final:
+      - Cahier des charges: projet-final/cahier-des-charges.md
+      - Grille de recette: projet-final/grille-recette.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
