@@ -1,4 +1,4 @@
-# Jour 2 — Fichiers, flux, pipes et permissions
+# Module 2 — Fichiers, flux, pipes et permissions
 
 ## Objectifs
 
@@ -203,7 +203,7 @@ chgrp groupe fichier
 
 Ces commandes nécessitent souvent `sudo`. En formation débutant, on les observe avant de les utiliser largement.
 
-## Atelier fil rouge du jour
+## Atelier fil rouge
 
 Créer des sorties de diagnostic :
 

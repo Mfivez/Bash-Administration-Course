@@ -1,8 +1,8 @@
-# Jour 1 — Linux, terminal et arborescence
+# Module 1 — Linux, terminal et arborescence
 
 ## Objectifs
 
-À la fin de la journée, vous savez ouvrir un terminal, comprendre le prompt, vous déplacer dans Linux, créer des fichiers et dossiers, lire un fichier et préparer l'arborescence NovaCorp.
+À la fin de ce module, vous savez ouvrir un terminal, comprendre le prompt, vous déplacer dans Linux, créer des fichiers et dossiers, lire un fichier et préparer l'arborescence NovaCorp.
 
 ## 1. Comprendre Linux simplement
 
@@ -192,9 +192,9 @@ ls *.txt
 ls log*
 ```
 
-## Atelier fil rouge du jour
+## Atelier fil rouge
 
-Créer proprement l'environnement NovaCorp, puis produire un court fichier `reports/jour-01.txt` contenant :
+Créer proprement l'environnement NovaCorp, puis produire un court fichier `reports/module-01.txt` contenant :
 
 - le nom de l'utilisateur ;
 - le nom de la machine ;
@@ -209,7 +209,7 @@ Commande possible :
   echo "Machine     : $(hostname)"
   echo "Dossiers NovaCorp :"
   find ~/novacorp -maxdepth 2 -type d | sort
-} > ~/novacorp/reports/jour-01.txt
+} > ~/novacorp/reports/module-01.txt
 ```
 
 ## Validation
@@ -224,5 +224,5 @@ Vous devez pouvoir expliquer :
 ## Livrable
 
 ```text
-~/novacorp/reports/jour-01.txt
+~/novacorp/reports/module-01.txt
 ```

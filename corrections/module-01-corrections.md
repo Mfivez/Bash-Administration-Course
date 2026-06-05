@@ -1,4 +1,4 @@
-# Correction Jour 1
+# Correction module 1
 
 ```bash
 mkdir -p ~/novacorp/{scripts,logs,backup,data,reports,tmp}
@@ -12,9 +12,9 @@ printf "alice\nbob\n" > ~/novacorp/data/users.txt
   echo "Date        : $(date)"
   echo "Arborescence :"
   find ~/novacorp -maxdepth 2 -type d | sort
-} > ~/novacorp/reports/jour-01.txt
+} > ~/novacorp/reports/module-01.txt
 
-cat ~/novacorp/reports/jour-01.txt
+cat ~/novacorp/reports/module-01.txt
 ```
 
 Points de correction : vérifier les chemins, l'existence des dossiers, et l'absence de travail dans `/` ou `/etc`.

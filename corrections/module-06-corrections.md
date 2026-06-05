@@ -1,4 +1,4 @@
-# Correction Jour 6
+# Correction module 6
 
 Une version complète est disponible dans `scripts/solutions/server_health.sh`.
 

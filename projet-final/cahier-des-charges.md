@@ -56,8 +56,6 @@ Le rapport complet doit contenir :
 
 ## Démonstration attendue
 
-Durée : 5 à 10 minutes.
-
 L'apprenant doit montrer :
 
 1. l'arborescence ;

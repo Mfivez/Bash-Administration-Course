@@ -1,4 +1,4 @@
-# Jour 3 — Premiers scripts Bash
+# Module 3 — Premiers scripts Bash
 
 ## Objectifs
 
@@ -184,7 +184,7 @@ ls /dossier_inexistant
 echo $?
 ```
 
-## 7. Mini-projet du jour : `check_file.sh`
+## 7. Mini-projet : `check_file.sh`
 
 Objectif : vérifier un fichier passé en argument.
 
@@ -228,7 +228,7 @@ head -n 5 "$fichier"
 - Écrire les erreurs dans `stderr` avec `>&2`.
 - Retourner un code de sortie utile.
 
-## Atelier fil rouge du jour
+## Atelier fil rouge
 
 Créer et tester `~/novacorp/scripts/check_file.sh` sur :
 

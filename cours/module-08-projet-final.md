@@ -1,8 +1,8 @@
-# Jour 8 — Projet final et industrialisation
+# Module 8 — Projet final et industrialisation
 
 ## Objectifs
 
-Vous assemblez les scripts de la semaine dans une boîte à outils d'administration Bash cohérente, testable et présentable.
+Vous assemblez les scripts du parcours dans une boîte à outils d'administration Bash cohérente, testable et présentable.
 
 ## 1. Architecture professionnelle minimale
 
@@ -106,7 +106,7 @@ Le script doit :
 - gérer les choix invalides ;
 - vérifier les fichiers avant lecture ;
 - écrire les rapports dans `reports/` ;
-- réutiliser les scripts créés dans la semaine si possible ;
+- réutiliser les scripts créés dans le parcours si possible ;
 - produire un rapport complet horodaté ;
 - fonctionner depuis `~/novacorp/scripts`.
 

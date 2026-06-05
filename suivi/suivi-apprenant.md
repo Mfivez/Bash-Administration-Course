@@ -2,9 +2,8 @@
 
 Nom :  
 Promotion :  
-Dates :  
 
-## Auto-positionnement initial
+## Auto-positionnement
 
 | Question | Réponse |
 |---|---|
@@ -12,9 +11,9 @@ Dates :
 | Ai-je déjà écrit un script ? | ☐ Jamais ☐ Un peu ☐ Régulièrement |
 | Suis-je à l'aise avec le terminal ? | ☐ Non ☐ Moyen ☐ Oui |
 
-## Suivi quotidien
+## Suivi par module
 
-### Jour 1
+### Module 1
 
 - [ ] Je sais ouvrir un terminal.
 - [ ] Je sais utiliser `pwd`, `ls`, `cd`.
@@ -24,7 +23,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 2
+### Module 2
 
 - [ ] Je comprends stdout et stderr.
 - [ ] Je sais utiliser `>`, `>>`, `2>`.
@@ -34,7 +33,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 3
+### Module 3
 
 - [ ] Je sais créer un script Bash.
 - [ ] Je sais utiliser des variables.
@@ -45,7 +44,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 4
+### Module 4
 
 - [ ] Je sais écrire une boucle `for`.
 - [ ] Je sais lire un fichier avec `while read`.
@@ -55,7 +54,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 5
+### Module 5
 
 - [ ] Je sais utiliser `grep`.
 - [ ] Je sais utiliser `sort` et `uniq`.
@@ -66,7 +65,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 6
+### Module 6
 
 - [ ] Je sais lire les informations système.
 - [ ] Je sais vérifier mémoire et disque.
@@ -77,7 +76,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 7
+### Module 7
 
 - [ ] Je comprends cron.
 - [ ] Je sais créer une archive tar.gz.
@@ -88,7 +87,7 @@ Dates :
 - Erreur rencontrée :
 - Point à revoir :
 
-### Jour 8
+### Module 8
 
 - [ ] J'ai assemblé un menu.
 - [ ] J'ai généré un rapport complet.
@@ -98,7 +97,7 @@ Dates :
 - Erreur rencontrée :
 - Amélioration future :
 
-## Bilan final
+## Bilan
 
 Ce que je sais faire maintenant :
 

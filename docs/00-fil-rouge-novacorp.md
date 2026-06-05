@@ -30,7 +30,7 @@ NovaCorp veut pouvoir :
 
 ## Évolution du fil rouge
 
-| Jour | Construction NovaCorp |
+| Module | Construction NovaCorp |
 |---:|---|
 | 1 | Créer l'arborescence et comprendre les chemins |
 | 2 | Alimenter les logs, manipuler les droits, rendre un script exécutable |
@@ -56,7 +56,7 @@ Un menu interactif :
 8. Quitter
 ```
 
-## Règles professionnelles imposées
+## Standards professionnels imposés
 
 Chaque script doit :
 

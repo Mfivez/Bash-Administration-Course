@@ -1,4 +1,4 @@
-# Atelier Jour 7 — Sauvegarde et supervision
+# Atelier module 7 — Sauvegarde et supervision
 
 ## Objectif
 

@@ -1,4 +1,4 @@
-# Correction Jour 8
+# Correction module 8
 
 Une version complète est disponible dans `scripts/solutions/admin_toolkit.sh`.
 

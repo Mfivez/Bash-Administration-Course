@@ -1,4 +1,4 @@
-# Correction Jour 3
+# Correction module 3
 
 Une version complète est disponible dans `scripts/solutions/check_file.sh`.
 

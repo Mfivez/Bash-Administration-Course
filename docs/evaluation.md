@@ -2,7 +2,7 @@
 
 ## Évaluation continue
 
-Chaque jour, l'apprenant produit un livrable. Le formateur vérifie :
+Pour chaque module, l'apprenant produit un livrable. Le formateur vérifie :
 
 - exécution correcte ;
 - compréhension des commandes ;
@@ -10,9 +10,9 @@ Chaque jour, l'apprenant produit un livrable. Le formateur vérifie :
 - propreté minimale du script ;
 - suivi individuel renseigné.
 
-## Mini-défis quotidiens
+## Mini-défis par module
 
-| Jour | Défi |
+| Module | Défi |
 |---:|---|
 | 1 | Recréer l'arborescence NovaCorp sans aide |
 | 2 | Corriger un problème de permission et rediriger les erreurs |

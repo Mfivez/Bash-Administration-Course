@@ -1,4 +1,4 @@
-# Atelier Jour 4 — Script `user_report.sh`
+# Atelier module 4 — Script `user_report.sh`
 
 ## Objectif
 

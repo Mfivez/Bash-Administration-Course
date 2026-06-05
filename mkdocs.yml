@@ -1,5 +1,5 @@
-site_name: Formation Bash & Administration Linux
-site_description: Formation Bash de zéro vers l'administration Linux avec fil rouge NovaCorp
+site_name: Cours Bash & Administration Linux
+site_description: Bash de zéro vers l'administration Linux avec fil rouge NovaCorp
 nav:
   - Accueil: README.md
   - Guides:
@@ -12,23 +12,23 @@ nav:
       - Conventions Bash: docs/conventions-bash.md
       - Évaluation: docs/evaluation.md
   - Cours:
-      - Jour 1: cours/jour-01-linux-terminal.md
-      - Jour 2: cours/jour-02-fichiers-flux-permissions.md
-      - Jour 3: cours/jour-03-premiers-scripts.md
-      - Jour 4: cours/jour-04-boucles-fonctions.md
-      - Jour 5: cours/jour-05-texte-logs.md
-      - Jour 6: cours/jour-06-administration-systeme.md
-      - Jour 7: cours/jour-07-automatisation-sauvegarde-supervision.md
-      - Jour 8: cours/jour-08-projet-final.md
+      - Module 1: cours/module-01-linux-terminal.md
+      - Module 2: cours/module-02-fichiers-flux-permissions.md
+      - Module 3: cours/module-03-premiers-scripts.md
+      - Module 4: cours/module-04-boucles-fonctions.md
+      - Module 5: cours/module-05-texte-logs.md
+      - Module 6: cours/module-06-administration-systeme.md
+      - Module 7: cours/module-07-automatisation-sauvegarde-supervision.md
+      - Module 8: cours/module-08-projet-final.md
   - Ateliers:
-      - Jour 1: ateliers/jour-01-ateliers.md
-      - Jour 2: ateliers/jour-02-ateliers.md
-      - Jour 3: ateliers/jour-03-ateliers.md
-      - Jour 4: ateliers/jour-04-ateliers.md
-      - Jour 5: ateliers/jour-05-ateliers.md
-      - Jour 6: ateliers/jour-06-ateliers.md
-      - Jour 7: ateliers/jour-07-ateliers.md
-      - Jour 8: ateliers/jour-08-ateliers.md
+      - Module 1: ateliers/module-01-ateliers.md
+      - Module 2: ateliers/module-02-ateliers.md
+      - Module 3: ateliers/module-03-ateliers.md
+      - Module 4: ateliers/module-04-ateliers.md
+      - Module 5: ateliers/module-05-ateliers.md
+      - Module 6: ateliers/module-06-ateliers.md
+      - Module 7: ateliers/module-07-ateliers.md
+      - Module 8: ateliers/module-08-ateliers.md
   - Projet final:
       - Cahier des charges: projet-final/cahier-des-charges.md
       - Grille de recette: projet-final/grille-recette.md

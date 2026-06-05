@@ -1,4 +1,4 @@
-# Atelier Jour 8 — Projet final `admin_toolkit.sh`
+# Atelier module 8 — Projet final `admin_toolkit.sh`
 
 ## Objectif
 
@@ -28,7 +28,7 @@ Assembler les scripts créés dans un menu d'administration.
 
 ## Démonstration
 
-Préparez une démonstration de 5 minutes :
+Préparez une démonstration courte et structurée :
 
 1. affichage du menu ;
 2. diagnostic serveur ;

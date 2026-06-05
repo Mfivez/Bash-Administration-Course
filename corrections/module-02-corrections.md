@@ -1,4 +1,4 @@
-# Correction Jour 2
+# Correction module 2
 
 ```bash
 ls -la ~/novacorp > ~/novacorp/logs/stdout.log

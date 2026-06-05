@@ -1,4 +1,4 @@
-# Jour 7 — Automatisation, sauvegarde, supervision et sécurité
+# Module 7 — Automatisation, sauvegarde, supervision et sécurité
 
 ## Objectifs
 
@@ -6,19 +6,24 @@ Vous automatisez des tâches récurrentes, créez des sauvegardes, vérifiez l'e
 
 ## 1. Planifier avec cron
 
-Cron lance des commandes selon un calendrier.
+Cron lance des commandes selon une planification définie par cinq champs.
 
 Format :
 
 ```text
 * * * * * commande
-| | | | |
-| | | | +-- jour semaine
-| | | +---- mois
-| | +------ jour mois
-| +-------- heure
-+---------- minute
+1 2 3 4 5
 ```
+
+Lecture des champs :
+
+| Champ | Rôle |
+|---:|---|
+| 1 | minute |
+| 2 | heure |
+| 3 | position dans le mois |
+| 4 | mois |
+| 5 | champ calendrier complémentaire |
 
 Exemples :
 
@@ -36,9 +41,9 @@ crontab -e
 
 ### Exercice intégré 1
 
-Écrire une ligne cron qui exécute un script tous les jours à 23 h 30.
+Écrire une ligne cron qui exécute un script selon une planification fixe.
 
-Réponse attendue :
+Exemple de réponse :
 
 ```text
 30 23 * * * /chemin/vers/script.sh
@@ -97,16 +102,16 @@ log() {
 
 ## 5. Rotation simple
 
-Supprimer les archives de plus de 7 jours :
+Supprimer les archives anciennes selon un seuil de conservation :
 
 ```bash
-find ~/novacorp/backup -name "*.tar.gz" -type f -mtime +7 -delete
+find ~/novacorp/backup -name "*.tar.gz" -type f -mtime +30 -delete
 ```
 
-Prudence : toujours tester sans `-delete` d'abord.
+Prudence : tester sans `-delete` d'abord.
 
 ```bash
-find ~/novacorp/backup -name "*.tar.gz" -type f -mtime +7 -print
+find ~/novacorp/backup -name "*.tar.gz" -type f -mtime +30 -print
 ```
 
 ## 6. Vérification disque
@@ -152,7 +157,7 @@ if [ -z "$dossier" ] || [ "$dossier" = "/" ]; then
 fi
 ```
 
-## 8. Mini-projets du jour
+## 8. Mini-projets
 
 ### `backup_novacorp.sh`
 

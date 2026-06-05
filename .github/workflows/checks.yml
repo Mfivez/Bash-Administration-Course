@@ -2,7 +2,7 @@ name: Checks Bash
 
 on:
   push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   bash-checks:

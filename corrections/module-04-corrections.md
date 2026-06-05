@@ -1,4 +1,4 @@
-# Correction Jour 4
+# Correction module 4
 
 Une version complète est disponible dans `scripts/solutions/user_report.sh`.
 

@@ -1,4 +1,4 @@
-# Atelier Jour 5 — Script `analyze_logs.sh`
+# Atelier module 5 — Script `analyze_logs.sh`
 
 ## Objectif
 

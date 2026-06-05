@@ -1,4 +1,4 @@
-# Jour 4 — Boucles, fonctions et scripts structurés
+# Module 4 — Boucles, fonctions et scripts structurés
 
 ## Objectifs
 
@@ -111,7 +111,7 @@ esac
 
 Créer un menu avec trois choix : afficher la date, afficher la machine, quitter.
 
-## 7. Mini-projet du jour : `user_report.sh`
+## 7. Mini-projet : `user_report.sh`
 
 Objectif : lire `users-simple.txt` et produire un rapport.
 
@@ -140,7 +140,7 @@ fi
 - Utiliser `local` dans les fonctions.
 - Séparer affichage, validation et traitement.
 
-## Atelier fil rouge du jour
+## Atelier fil rouge
 
 Écrire `~/novacorp/scripts/user_report.sh`, puis tester :
 

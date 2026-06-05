@@ -1,4 +1,4 @@
-# Jour 5 — Traitement texte, grep, sed, awk et logs
+# Module 5 — Traitement texte, grep, sed, awk et logs
 
 ## Objectifs
 
@@ -128,7 +128,7 @@ Afficher seulement date, niveau et service du log :
 awk '{print $1, $3, $4}' ~/novacorp/logs/application.log | head
 ```
 
-## 7. Mini-projet du jour : `analyze_logs.sh`
+## 7. Mini-projet : `analyze_logs.sh`
 
 Le script doit :
 
@@ -154,7 +154,7 @@ grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' application.log | sort | uniq -c | sort -
 - `awk` est très puissant pour les colonnes.
 - Toujours tester sur une copie avant modification en place.
 
-## Atelier fil rouge du jour
+## Atelier fil rouge
 
 Créer `~/novacorp/scripts/analyze_logs.sh` et générer :
 

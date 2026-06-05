@@ -1,6 +1,6 @@
 # Guide apprenant
 
-## Comment travailler pendant la formation
+## Comment travailler avec ce cours
 
 L'objectif n'est pas de tout mémoriser. L'objectif est de comprendre comment chercher, tester et assembler des commandes pour résoudre un problème d'administration Linux.
 
@@ -35,9 +35,9 @@ man commande        # Lire la documentation
 commande --help     # Aide rapide
 ```
 
-## Journal personnel
+## Carnet personnel
 
-Chaque jour, notez :
+Pour chaque module, notez :
 
 - trois commandes apprises ;
 - une erreur rencontrée ;

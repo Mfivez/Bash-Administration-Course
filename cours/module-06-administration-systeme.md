@@ -1,4 +1,4 @@
-# Jour 6 — Bash pour l'administration système Linux
+# Module 6 — Bash pour l'administration système Linux
 
 ## Objectifs
 
@@ -156,7 +156,7 @@ Afficher les ports en écoute :
 ss -tuln
 ```
 
-## 8. Mini-projet du jour : `server_health.sh`
+## 8. Mini-projet : `server_health.sh`
 
 Le script doit générer un rapport avec :
 

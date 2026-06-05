@@ -1,4 +1,4 @@
-# Atelier Jour 1 — Créer l'espace NovaCorp
+# Atelier module 1 — Créer l'espace NovaCorp
 
 ## Objectif
 
@@ -42,7 +42,7 @@ Produisez les commandes qui affichent :
 
 ## Étape 4 — Rapport
 
-Créer `~/novacorp/reports/jour-01.txt` contenant :
+Créer `~/novacorp/reports/module-01.txt` contenant :
 
 - utilisateur courant ;
 - hostname ;
@@ -52,7 +52,7 @@ Créer `~/novacorp/reports/jour-01.txt` contenant :
 ## Validation
 
 ```bash
-cat ~/novacorp/reports/jour-01.txt
+cat ~/novacorp/reports/module-01.txt
 find ~/novacorp -maxdepth 2 -type d | sort
 ```
 

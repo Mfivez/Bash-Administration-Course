@@ -1,10 +1,10 @@
-# Formation Bash & Administration Linux — 8 jours
+# Cours Bash & Administration Linux
 
-Dépôt pédagogique prêt à publier sur GitHub pour une formation avancée construite **à partir de zéro**. Le parcours amène des néophytes vers une première autonomie en **ligne de commande, Bash et administration Linux**.
+Dépôt pédagogique prêt à publier sur GitHub pour apprendre Bash depuis zéro et progresser vers l'administration Linux. Le parcours suit un fil rouge professionnel : construire une boîte à outils Bash pour l'entreprise fictive **NovaCorp**.
 
 ## Objectif général
 
-À la fin des 8 jours, l'apprenant sait utiliser un terminal Linux, écrire des scripts Bash structurés, analyser des logs, gérer des fichiers et permissions, surveiller l'état d'un serveur, automatiser des sauvegardes et assembler une boîte à outils d'administration.
+À la fin du parcours, l'apprenant sait utiliser un terminal Linux, écrire des scripts Bash structurés, analyser des logs, gérer des fichiers et permissions, surveiller l'état d'un serveur, automatiser des sauvegardes et assembler une boîte à outils d'administration.
 
 ## Public cible
 
@@ -21,7 +21,7 @@ Aucun prérequis Linux n'est obligatoire. Il est recommandé de savoir utiliser 
 
 - Une VM Ubuntu Server LTS, Debian ou équivalent.
 - Un utilisateur standard avec accès `sudo`.
-- 2 CPU, 2 à 4 Go RAM, 20 Go disque.
+- Ressources suffisantes pour une VM de lab Linux.
 - Éditeur texte : `nano` au début, puis `vim` ou `code` selon le niveau.
 
 Voir : [`docs/00-environnement-lab.md`](docs/00-environnement-lab.md).
@@ -51,7 +51,7 @@ Le script crée un environnement de travail local :
 
 ```text
 formation-bash-linux-admin/
-├── cours/                  # Cours complets jour par jour
+├── cours/                  # Cours complets organisés par modules
 ├── ateliers/               # Travaux pratiques guidés
 ├── corrections/            # Corrigés formateur et auto-correction
 ├── docs/                   # Guides, fil rouge, glossaire, cheatsheets
@@ -65,9 +65,9 @@ formation-bash-linux-admin/
 └── README.md
 ```
 
-## Progression des 8 jours
+## Progression du parcours
 
-| Jour | Thème | Livrable principal |
+| Module | Thème | Livrable principal |
 |---:|---|---|
 | 1 | Linux, terminal, arborescence | Arborescence NovaCorp créée |
 | 2 | Fichiers, flux, pipes, permissions | Premiers logs et script exécutable |
@@ -86,15 +86,15 @@ Voir : [`docs/00-fil-rouge-novacorp.md`](docs/00-fil-rouge-novacorp.md).
 
 ## Comment utiliser ce support
 
-Pour une formation en présentiel, l'ordre conseillé est :
+L'ordre conseillé est :
 
-1. Lire le fichier du jour dans `cours/`.
+1. Lire le module correspondant dans `cours/`.
 2. Faire les mini-exercices intégrés dans la théorie.
-3. Réaliser l'atelier du jour dans `ateliers/`.
-4. Utiliser les corrections uniquement en fin de séquence.
+3. Réaliser l'atelier associé dans `ateliers/`.
+4. Utiliser les corrections uniquement après une tentative réelle.
 5. Compléter la fiche de suivi dans `suivi/suivi-apprenant.md`.
 
-Pour le formateur, commencer par :
+Pour piloter le parcours, commencer par :
 
 - [`docs/00-guide-formateur.md`](docs/00-guide-formateur.md)
 - [`suivi/suivi-formateur.csv`](suivi/suivi-formateur.csv)
@@ -115,7 +115,3 @@ Chaque notion suit le rythme :
 ```text
 Comprendre → Voir un exemple → Modifier → Réutiliser dans le fil rouge → Valider
 ```
-
-## Licence
-
-Voir [`LICENSE.md`](LICENSE.md). Adaptez ce fichier selon les règles de diffusion de votre organisation avant publication publique.

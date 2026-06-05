@@ -1,4 +1,4 @@
-# Atelier Jour 2 — Redirections, pipes et permissions
+# Atelier module 2 — Redirections, pipes et permissions
 
 ## Objectif
 

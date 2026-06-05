@@ -1,4 +1,4 @@
-# Atelier Jour 3 — Script `check_file.sh`
+# Atelier module 3 — Script `check_file.sh`
 
 ## Objectif
 

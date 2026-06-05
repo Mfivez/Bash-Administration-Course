@@ -1,4 +1,4 @@
-# Correction Jour 5
+# Correction module 5
 
 Une version complète est disponible dans `scripts/solutions/analyze_logs.sh`.
 

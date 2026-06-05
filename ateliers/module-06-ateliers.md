@@ -1,4 +1,4 @@
-# Atelier Jour 6 — Script `server_health.sh`
+# Atelier module 6 — Script `server_health.sh`
 
 ## Objectif
 
