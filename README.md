@@ -1,6 +1,6 @@
 # Cours Bash & Administration Linux
 
-Dépôt pédagogique prêt à publier sur GitHub pour apprendre Bash depuis zéro et progresser vers l'administration Linux. Le parcours suit un fil rouge professionnel : construire une boîte à outils Bash pour l'entreprise fictive **NovaCorp**.
+Dépôt pédagogique pour apprendre Bash depuis zéro et progresser vers l'administration Linux. Le parcours suit un fil rouge professionnel : construire une boîte à outils Bash pour l'entreprise fictive **NovaCorp**.
 
 ## Objectif général
 
